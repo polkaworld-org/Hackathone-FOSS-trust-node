@@ -16,7 +16,7 @@ Allow other rtml delegate Calls to it, delay to execute or keep running at fixed
 
 Hack Executor to disguise the origin of calls.
 
-![Schedule Service](docs/Schedule_Service.png)
+![Schedule Service](docs/ScheduleService.png)
 
 ### Assets
 Change transfer to pub, so trust-fund can do schedule payment and execute grantor's testamentary.
