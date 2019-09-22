@@ -1,6 +1,12 @@
 # FOSS Chain Node
 
+## FOSS Trust UI
+[here](https://github.com/polkaworld-org/Hackathone-FOSS-trust-ui)
+
 ## RTML
+![High level architecture](docs/high_level_architecture.png)
+
+![runtime architecture](docs/Runtime_Design.png)
 
 ### trust-fund
 Main runtime module of FOSS Trust. Allow user manage trust fund.
@@ -10,7 +16,9 @@ Allow other rtml delegate Calls to it, delay to execute or keep running at fixed
 
 Hack Executor to disguise the origin of calls.
 
-### assets
+![Schedule Service](docs/Schedule_Service.png)
+
+### Assets
 Change transfer to pub, so trust-fund can do schedule payment and execute grantor's testamentary.
 
 ## Additional Types
@@ -30,6 +38,9 @@ Change transfer to pub, so trust-fund can do schedule payment and execute granto
   }
 }
 ```
+
+## Roadmap
+[here](ROADMAP.md)
 
 ## Build
 
